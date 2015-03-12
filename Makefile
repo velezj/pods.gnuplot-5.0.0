@@ -3,8 +3,6 @@
 FETCH_URL=http://downloads.sourceforge.net/project/gnuplot/gnuplot/5.0.0/gnuplot-5.0.0.tar.gz
 POD_NAME=gnuplot-5.0.0
 
-default_target: all
-
 # Default to a less-verbose build.  If you want all the gory compiler output,
 # run "make VERBOSE=1"
 $(VERBOSE).SILENT:
